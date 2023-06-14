@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Login - Kat Op Schoot</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=cb606d99bb2418df19b6bc818b41e412">
+    <link rel="stylesheet" href="assets/css/Nunito.css?h=456206f531ccdf34c27dba30737f7433">
+    <style>
+        body {
+            background-color: #f5f3e8;
+        }
+
+        .bg-login-image {
+            background-image: url("assets/img/dogs/298806621_102693179224172_4549209855065541874_n.jpg?h=637a67bf4fe5646d893fcd212a654010");
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        @media (max-width: 767px) {
+            .bg-login-image {
+                padding-bottom: 75%;
+            }
+        }
+
+        .card {
+            background-color: #f5f3e8;
+            border: none;
+        }
+
+        .card-title {
+            color: #8a6d3b;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-control-user {
+            background-color: #fff;
+            border-color: #8a6d3b;
+            color: #8a6d3b;
+        }
+
+        .btn-primary {
+            background-color: #8a6d3b;
+            border-color: #8a6d3b;
+        }
+
+        .btn-primary:hover {
+            background-color: #7a5c30;
+            border-color: #7a5c30;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-lg-flex align-items-center">
+                                <div class="text-center mx-auto">
+                                    <div class="bg-login-image"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h4 class="card-title">Kattencafé "Kat op Schoot" Kassasysteem</h4>
+                                    </div>
+                                    <form method="post" action="php/login.php" class="user">
+                                        <div class="mb-3"></div>
+                                        <div class="mb-3">
+                                            <input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="password">
+                                        </div>
+                                        <hr>
+                                        <div class="d-grid">
+                                            <input type="submit" class="btn btn-primary btn-user" value="Login" href="tafel.html">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/theme.js?h=79f403485707cf2617c5bc5a2d386bb0"></script>
+</body>
+
+</html>
